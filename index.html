@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride In Tunisia</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            height: 100px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x600/?quad,bike,nature');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            flex-direction: column;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #ff6600;
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .photos img {
+            width: 30%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .button {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+        .button:hover {
+            background-color: #e65c00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Ride In Tunisia Logo">
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#photos">Photos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <div>Découvrez la nature autrement</div>
+    </div>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes une société spécialisée dans la location de quads et l'organisation de sorties guidées en pleine nature. Explorez les forêts, montagnes et le Sahara avec nos quads tout-terrain, encadrés par des guides expérimentés.</p>
+        </div>
+        <div id="services" class="section">
+            <h2>Nos Services</h2>
+            <ul>
+                <li>Location de quads</li>
+                <li>Sorties guidées en forêt</li>
+                <li>Excursions en montagne</li>
+                <li>Raids dans le Sahara</li>
+                <li>Événements d'entreprise</li>
+                <li>Formations et stages de conduite</li>
+            </ul>
+        </div>
+        <div id="photos" class="section">
+            <h2>Photos</h2>
+            <div class="photos">
+                <img src="https://source.unsplash.com/800x600/?quad,sahara" alt="Raid dans le Sahara">
+                <img src="https://source.unsplash.com/800x600/?quad,forest" alt="Sortie en forêt">
+                <img src="https://source.unsplash.com/800x600/?quad,mountain" alt="Excursion en montagne">
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contactez-nous</h2>
+            <p>Email: contact@rideintunisia.com</p>
+            <p>Téléphone: 01 23 45 67 89</p>
+            <a href="mailto:contact@rideintunisia.com" class="button">Envoyez-nous un email</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ride In Tunisia</p>
+    </footer>
+</body>
+</html>
